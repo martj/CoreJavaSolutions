@@ -1,1 +1,14 @@
-Solutions of exirise in Core Java coursels
+Solutions of exercises in Core Java course.
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/martj/CoreJavaSolutions.git
+git push -u origin master
+
+
+
+git remote add origin https://github.com/martj/CoreJavaSolutions.git
+git push -u origin master
