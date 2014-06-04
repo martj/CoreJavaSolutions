@@ -320,7 +320,6 @@ public class Problems2Impl implements Problems2 {
     @Override
     public int countOcurrences(String needle, String haystack) {
         // kolko puti shte namer needle v haystack
-        haystack.contains(needle);
         // TODO Auto-generated method stub
         return 0;
     }
@@ -337,15 +336,15 @@ public class Problems2Impl implements Problems2 {
     @Override
     public int sumOfNumbers(String input) {
         String[] splited = input.split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)|( )");
+        int sum = 0;
         for (String string : splited) {
-            if (string.contains()) {
-
+            if (string.matches("^[0-9]*\\.?[0-9]*$")){
+                System.out.println(string);
+               
             }
-
-            System.out.println(string);
         }
         // TODO Auto-generated method stub
-        return 999;
+        return 0;
     }
 
     /* ................................................................ */
