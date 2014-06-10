@@ -13,6 +13,10 @@ public class StackImpl {
     }
 
     public void popElem() {
+        
+    }
+
+    public void clearStack() {
 
     }
 
@@ -20,13 +24,9 @@ public class StackImpl {
         return getCounter();
     }
 
-    public void clearStack() {
-
-    }
-
-    public boolean  isEmpty() {
-        if(stack[0] == null){
-        return true;    
+    public boolean isEmpty() {
+        if (stack[0] == null) {
+            return true;
         }
         return false;
     }
